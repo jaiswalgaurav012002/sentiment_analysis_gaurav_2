@@ -1,0 +1,68 @@
+# === Core Numeric & Deep Learning ===
+numpy==1.23.5
+tensorflow==2.13.0
+typing_extensions==4.7.1
+jax==0.4.23
+jaxlib==0.4.23
+scipy
+requests
+
+# === PyTorch with CUDA 11.8 ===
+--index-url https://download.pytorch.org/whl/cu118
+torch
+torchvision
+torchaudio
+
+# === Transformers, NLP, Whisper ===
+transformers
+accelerate
+sentencepiece
+datasets
+git+https://github.com/openai/whisper.git
+
+# === Audio Processing ===
+librosa
+ffmpeg
+pydub
+soundfile
+python-multipart
+noisereduce
+praat-parselmouth
+
+# === Text Processing & NER ===
+nltk
+spacy
+pydantic
+num2words
+
+# === Emotion Detection (Speech + Text) ===
+TTS
+speechbrain
+huggingface_hub
+
+# === Voice Activity Detection + Speaker Diarization ===
+git+https://github.com/snakers4/silero-vad
+pyannote-audio
+torchaudio
+
+# === Retrieval & Search (RAG + FAISS) ===
+faiss-gpu  # use faiss-cpu as fallback if GPU fails
+onnx
+onnxruntime-gpu
+torch-onnx
+
+# === API Deployment (FastAPI + Real-time) ===
+fastapi
+uvicorn
+websockets
+aiofiles
+
+# === Monitoring, Logging, Cloud ===
+prometheus_client
+sentry-sdk
+awscli
+boto3
+authlib
+pyngrok
+loguru
+tqdm

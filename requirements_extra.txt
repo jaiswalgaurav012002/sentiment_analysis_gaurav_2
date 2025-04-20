@@ -1,0 +1,3 @@
+# Additional ones that need special build order
+hatchling
+git+https://github.com/snakers4/silero-vad
